@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #A99382;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    background-color: #F0E9DB;
+    width: 95%;
+    height: 90%;
+    border-radius: 20px;
+}
+.side-nav{
+    background-color: #AA6C3C;
+    width: 250px;
+    height: 100%;
+    border-radius: 20px 30px 30px 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+.logo img{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+}
+.logo h1{
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.navbar{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+.navbar ul{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.navbar ul li{
+    list-style: none;
+    margin-bottom: 1.5rem;
+    background-color: #50281A;
+    width: 93%;
+    margin-left: 8px;
+    padding: 8px 11px;
+    border-radius: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.logout-btn{
+    display: flex;
+    margin-top: 100%;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+}
+.logout-btn:hover{
+    scale: 1.1;
+}
+.logout-btn a{
+    text-decoration: none;
+    color: white;
+    
+}
+.logout-btn i{
+    margin-right: 10px;
+}
+
+/* Order List */
+.box-2{
+    background-color: #FFFFFF;
+    width: 90%;
+    height: 95%;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+.box-2 h1{
+    font-size: 1.5rem;
+    margin-left: 2.3rem;
+    margin-top: 1rem;
+    margin-bottom: 3px;
+}
+
+.box-3{
+    background-color: #F0E9DB;
+    width: 95%;
+    height: 80%;
+    margin-left: 2rem;
+    border-radius: 1.5rem;
+    display: flex;
+}
+
+.box-left{
+    width: 100%;
+    height: 80%;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    margin-top: 3rem;
+    margin-left: 2rem;
+
+}
+
+.box-left .palit{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 1rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 1.5rem 0 1rem 3rem;
+}
+.box-left .palit:hover{
+    width: 90%;
+    cursor: pointer;
+    background-color:#50281A;
+    color: white;
+
+}
+.box-left .palit2{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 1rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 1.5rem 0 0 3.3rem;
+}
+.box-left .palit2:hover{
+    width: 90%;
+    cursor: pointer;
+    background-color:#50281A;
+    color: white;
+
+}
+.box-left .total {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-left: 33.2rem;
+
+}
+.box-right{
+    width: 50%;
+}
+.box-right h2{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.box-in {
+    height: 100%;
+    
+}
+.box-in textarea {
+    width: 85%;
+    height: 80%;
+    margin-top: 5px;
+    margin-left: 1.5rem;
+    background-color: #AA6C3C;
+    border-radius: 10px;
+    color: white; 
+    border: none;  
+    padding: 5px;   
+    font-size: 1rem;
+}
+.box-in textarea::placeholder {
+    font-size: 1rem;
+    padding: 5px;
+    color: white;
+}
+
+
+
+/* Buttons */
+.buttons{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 1rem;
+}
+.buttons button{
+    padding: 15px 60px;
+    border: none;
+    border-radius: 5rem;
+    background-color: #AA6C3C;
+    color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 5rem;
+}
+.buttons button:hover{
+    border: 1px solid #50281A;
+}
+/* end of buttons */
+

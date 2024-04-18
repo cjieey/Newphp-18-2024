@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #A99382;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    background-color: #F0E9DB;
+    width: 95%;
+    height: 90%;
+    border-radius: 20px;
+}
+.side-nav{
+    background-color: #AA6C3C;
+    width: 250px;
+    height: 100%;
+    border-radius: 20px 30px 30px 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+.logo img{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+}
+.logo h1{
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.navbar{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+.navbar ul{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.navbar ul li{
+    list-style: none;
+    margin-bottom: 1.5rem;
+    background-color: #50281A;
+    width: 93%;
+    margin-left: 8px;
+    padding: 8px 11px;
+    border-radius: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.logout-btn{
+    display: flex;
+    margin-top: 100%;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+}
+.logout-btn:hover{
+    scale: 1.1;
+}
+.logout-btn a{
+    text-decoration: none;
+    color: white;
+    
+}
+.logout-btn i{
+    margin-right: 10px;
+}
+
+/* History some sht */
+
+.table-container {
+  
+}
+
+
+.orders-table h1{
+    text-align: center;
+    padding: 2%;
+    margin-top: -4%;
+    color: #50281A;
+    
+}
+
+.orders-table {
+    margin-top: 5%;
+    
+    margin-left: 5%;
+    
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    
+}
+
+.order-table th,
+.order-table td {
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #ddd;
+    width: 270px;
+    
+
+}
+
+.order-table th {
+    background-color: #f2f2f2;
+}
+
+.order-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.order-table tr:hover {
+    background-color: #ddd;
+}
+

@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #A99382;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    background-color: #F0E9DB;
+    width: 95%;
+    height: 90%;
+    border-radius: 20px;
+}
+.side-nav{
+    background-color: #AA6C3C;
+    width: 230px;
+    height: 100%;
+    border-radius: 20px 30px 30px 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5rem;
+}
+.logo img{
+    width: 25%;
+    height: 25%;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+}
+.logo h1{
+    color: white;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.navbar{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+.navbar ul{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.navbar ul li{
+    list-style: none;
+    margin-bottom: 1.5rem;
+    background-color: #50281A;
+    width: 93%;
+    margin-left: 8px;
+    padding: 8px 11px;
+    border-radius: 10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.logout-btn{
+    display: flex;
+    margin-top: 100%;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s ease;
+}
+.logout-btn:hover{
+    scale: 1.1;
+}
+.logout-btn a{
+    text-decoration: none;
+    color: white;
+    
+}
+.logout-btn i{
+    margin-right: 10px;
+}
+
+/* content */
+.header{
+    display: inline-flex;
+    margin: 2%;
+    position: relative;
+}
+.htext{
+    width: 400px;
+    height: 60px;
+}
+.pfp img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.search{
+    border-radius: 30px;
+    width: 400px;
+    height: 40px;
+    padding: 7%;
+    border: 2px solid black;
+}
+.acc{
+    width: 180px;
+    height: 55px;
+    margin-left: 360px;
+    display: flex;
+}
+.info{
+    margin-left: 5%;
+}
+/* STATUS BARS */
+.stat{
+    display: flex;
+    margin-top: 10%;
+    margin-left: 15%;
+    position: absolute;
+}
+.status{
+    text-align: center;
+    padding: 2%;
+    width: 27.5rem;
+    height: auto;
+    border: 2px solid #A99382;
+    background-color: white;
+    border-radius: 15px;
+}
+.status2{
+    margin-left: 8%;
+    margin-right: 8%;
+    text-align: center;
+    padding: 2%;
+    width: 27.5rem;
+    height: auto;
+    border: 2px solid #A99382;
+    background-color: white;
+    border-radius: 15px;
+}
+/* BEST SELLER */
+.best{
+    margin-top: 17%;
+    margin-right: 4%;
+    margin-left: 15%;
+    padding: 2%;
+    width: 34%;
+    height: 370px;
+    border-radius: 15px;
+    border: 2px solid #A99382;
+    background-color: white;
+    position: absolute;
+}
+.bestitem img{
+    width: 5%;
+    margin-right: 5%;
+    height: auto;
+}
+.bestitem{
+    padding: 2%;
+    margin: 1%;
+    display: flex;
+}
+.bestitem h3{
+    margin-top: 3%;
+    margin: 0;
+}
+.REC{
+    margin-top: 17%;
+    margin-left: 50%;
+    padding: 2%;
+    width: 34%;
+    height: 370px;
+    border-radius: 15px;
+    border: 2px solid #A99382;
+    background-color: white;
+    position: absolute;
+}
+.layer2{
+    margin-left: -85%;
+}
+.acc:hover{
+    border:2px solid #A99382;
+    border-radius: 15px;
+}
+.bestitem:hover{
+    border: 2px solid #A99382;
+    background-color: #A99382;
+    border-radius: 15px;
+}
+@media screen and (width: 1536px) {
+    .acc{
+        margin-left: 150px;
+    }
+    .stat{
+        display: flex;
+        margin-top: 10%;
+        margin-left: 20%;
+        position: absolute;
+    }
+    .status{
+        text-align: center;
+        padding: 2%;
+        width: 22rem;
+        height: auto;
+        border: 1px solid #A99382;
+        background-color: white;
+        border-radius: 15px;
+    }
+    .status2{
+        margin-left: 8%;
+        margin-right: 8%;
+        text-align: center;
+        padding: 2%;
+        width: 22rem;
+        height: 15%;
+        border: 1px solid #A99382;
+        background-color: white;
+        border-radius: 15px;
+    }
+    .best{
+        margin-top: 17%;
+        margin-right: 4%;
+        margin-left: 20%;
+        padding: 2%;
+        width: 34%;
+        height: 370px;
+        border-radius: 15px;
+        border: 1px solid #A99382;
+        background-color: white;
+        position: absolute;
+    }
+    .bestitem img{
+        width: 5%;
+        margin-right: 5%;
+        height: auto;
+    }
+    .bestitem{
+        padding: 2%;
+        margin: 1%;
+        display: flex;
+    }
+    .bestitem h3{
+        margin-top: 3%;
+        margin: 0;
+    }
+    .REC{
+        margin-top: 17%;
+        margin-left: 55%;
+        padding: 2%;
+        width: 34%;
+        height: 370px;
+        border-radius: 15px;
+        border: 1px solid #A99382;
+        background-color: white;
+        position: absolute;
+    }
+    .layer2{
+        margin-left: -150%;
+    }
+}
